@@ -15,7 +15,7 @@ function App() {
         <img src={ChatGPTlogo} alt="logo" />
       </div>
 
-      <h1 className="welcome">Welcome back</h1>
+      <h1 className="welcome">Welcome back!</h1>
 
       <div className="textcontainer">
         {/* <input type="text" className='Email' placeholder="Email address" /> */}
