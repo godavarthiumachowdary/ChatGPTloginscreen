@@ -1,0 +1,230 @@
+/* ::-webkit-scrollbar{
+  width:20px
+} */
+
+img{
+  text-align: center;
+  max-height: 35px;
+}
+.imagecontainer {
+  display: flex;
+  justify-content: center;
+
+}
+.GImg{
+  max-height: 23px;
+  position:absolute;
+  margin-right:260px;
+  display: flex;
+  
+}
+.GImg1{
+  max-height: 23px;
+  position:absolute;
+  margin-right:60px;
+  display: flex;
+}
+.MicrosoftImage{
+
+  max-height: 25px;
+  position:absolute;
+  margin-right:260px;
+  display: flex;
+  
+}
+.AppleImage{
+  max-height: 25px;
+  position:absolute;
+  margin-right:260px;
+  display: flex;
+}
+.Microsoft{
+  max-height: 23px;
+  position:absolute;
+  margin-left:12px;
+  display: flex;
+}
+.Apple{
+  max-height: 23px;
+  position:absolute;
+  margin-left:10px;
+  margin-right: 85px;
+  display: flex;
+}
+.container{
+  align-items: center;
+  background: #ffffff;
+  font-family: ulp-font, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, sans-serif;
+
+} 
+.textcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:1.6%;
+  margin-bottom: -12px;
+    cursor: pointer;
+  
+}
+
+.textcontainer-microsoft {
+ 
+  padding-top:0.0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0.1%;
+  cursor: pointer;
+  
+}
+
+.textcontainer-apple{
+  padding-top:0.0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0.1%;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.Email{
+  border: 1px solid #c2c8d0;
+}
+
+.textcontainer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.textcontainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.welcome{
+  margin-top: 130px;
+  text-align: center;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: var(--title-font-color);
+}
+.Email1{
+  text-align: center;
+  width: 300px;
+  height: 150px;
+}
+.textnamemain{
+ display:flex;
+ justify-content:center;
+
+}
+.textname1{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  
+}
+.textname2{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-left: 10px;
+  color:#10a37f;
+  cursor: pointer;
+}
+input[type="text"] {
+  width: 300px; 
+  height: 40px; 
+  font-size: 16px;
+  padding: 4px; 
+  text-align: left;
+  position: relative;
+}
+
+.button-continue {
+  width: 314px; 
+  height: 50px; 
+  font-size: 16px;
+  padding: 4px; 
+  text-align: center;
+  background-color:#10a37f;
+  color:white;
+  box-shadow:none;
+  margin:10px;
+  border:none;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.button-continue:hover{
+  background-color:green;
+}
+.Continue-Google{
+  width: 314px; 
+  height: 50px; 
+  font-size: 16px;
+  padding: 4px; 
+  background-color:white;
+  border: 1px solid #c2c8d0;
+  cursor: pointer;
+
+}
+
+.textcontainer:hover  .Continue-Google {
+  background-color: #e7e7e7;
+}
+.textcontainer-microsoft:hover .Continue-Google{
+  background-color: #e7e7e7;
+}
+.textcontainer-apple:hover .Continue-Google{
+  background-color: #e7e7e7;
+}
+
+
+.h1line {
+ 
+ display: flex;
+}
+
+ .horizontalline{
+  height: 1px;
+  width:11%;
+  background-color: #a89d9d;
+  
+
+} 
+.horizontalline-left{
+
+  margin-right: 10px;
+
+} 
+.horizontalline-right{
+
+  margin-left: 10px;
+
+} 
+
+
+.oR1{
+  display:flex;
+  font-size: small;
+}
+
+.footerofpage{
+    text-align: center;
+    padding-top: 140px;
+  }
+
+.termsofuse{
+  color:#10a37f;
+}
+
+a:link {
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: ulp-font, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, sans-serif;
+}
